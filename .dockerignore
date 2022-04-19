@@ -1,0 +1,5 @@
+assets/
+.github/
+bin/
+*.md
+*.yaml

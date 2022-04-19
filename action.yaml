@@ -1,0 +1,7 @@
+name: Kustomize Diff
+author: amazingandyyy
+description: Kusumize diff on PR
+
+runs:
+  using: docker
+  image: Dockerfile
