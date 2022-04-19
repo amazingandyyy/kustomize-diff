@@ -1,7 +1,10 @@
-name: Kustomize Diff
+name: Kustomize Diff on PR
 author: amazingandyyy
-description: Kusumize diff on PR
+description: Kusumize build and diff on PR
 
 runs:
   using: docker
   image: Dockerfile
+
+icon: check-circle
+color: blue
