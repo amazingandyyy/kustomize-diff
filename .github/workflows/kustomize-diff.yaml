@@ -10,7 +10,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
       - name: Kustomize Diff on PR
-        uses: amazingandyyy/kustomize-diff@gha-v1.0.1
+        uses: amazingandyyy/kustomize-diff@v1.0.2
         with:
           message: hello world
         env:
