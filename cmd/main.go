@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	githubactions "github.com/sethvargo/go-githubactions"
 )
@@ -9,6 +10,6 @@ import (
 func main() {
 	actions := githubactions.New()
 
-	message := actions.GetInput("message")
-	fmt.Println(message)
+	files := actions.GetInput("files")
+	fmt.Println(strings.Split(files, "\n"))
 }

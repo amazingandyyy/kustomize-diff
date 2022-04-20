@@ -6,6 +6,10 @@ inputs:
   message:
     type: string
     required: false
+  files:
+    type: string
+    required: false
+    default: "**/kustomization.yaml"
   verboose:
     type: boolean
     required: false

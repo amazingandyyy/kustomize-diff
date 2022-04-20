@@ -12,6 +12,8 @@ jobs:
       - name: Kustomize Diff on PR
         uses: amazingandyyy/kustomize-diff@v1.0.3
         with:
-          message: hello world
+          files: |
+            kustomization/base/kustomization.yaml
+            kustomization/cluster/**/kustomization.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
