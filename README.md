@@ -62,7 +62,8 @@ pre-commit run --all-files
 
 ## Resources
 
-- [[How We Write Actions in Go](https://full-stack.blend.com/how-we-write-github-actions-in-go.html#releasing)](https://github.com/sethvargo/go-githubactions)
+- [sethvargo/go-githubactions](https://github.com/sethvargo/go-githubactions)
+- [penDerGraft/run-k8s-job](https://github.com/penDerGraft/run-k8s-job)
 
 ## LICENSE
 

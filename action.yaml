@@ -2,9 +2,30 @@ name: Kustomize Diff on PR
 author: amazingandyyy
 description: Kusumize build and diff on PR
 
+inputs:
+  message:
+    type: string
+    required: false
+  verboose:
+    type: boolean
+    required: false
+    default: false
+    description: "Verbose output"
+  config:
+    type: string
+    required: false
+    default: "kustomize-diff.json"
+    description: "Configurations for kustomize diff"
+  kustomize-version:
+    type: string
+    required: false
+    default: "v4.2.0"
+    description: "Kustomization version"
+
 runs:
   using: docker
   image: Dockerfile
 
-icon: check-circle
-color: blue
+branding:
+  icon: check-circle
+  color: blue
